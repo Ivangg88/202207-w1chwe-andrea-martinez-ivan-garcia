@@ -1,0 +1,26 @@
+{
+  "name": "challenge-primer-finde",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivangg88/202207-w1chwe-andrea-martinez-ivan-garcia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ivangg88/202207-w1chwe-andrea-martinez-ivan-garcia/issues"
+  },
+  "homepage": "https://github.com/Ivangg88/202207-w1chwe-andrea-martinez-ivan-garcia#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "sass": "^1.53.0"
+  }
+}
