@@ -19,6 +19,16 @@
   margin-right: 40px;
 }
 
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+}
+
 @media (min-width: 900px) {
   .main-header h1 {
     margin-left: 100px;
@@ -53,14 +63,6 @@
   box-sizing: border-box;
 }
 
-html {
-  font-family: "Poppins", sans-serif;
-}
 
-body {
-  padding: 0;
-  margin: 0;
-  width: 100vw;
-}
 
 /*# sourceMappingURL=style.css.map */
