@@ -3,5 +3,25 @@
 .search {
   background-color: colors.$background-elements-1;
   border-radius: 20px;
-  width: 420px;
+  width: 320px;
+  padding: 20px 26px;
+  margin: 10px 20px;
+  color: colors.$main-color;
+}
+
+h2 {
+  margin-top: 5px;
+}
+
+.search__form {
+  display: inline-grid;
+  width: 100%;
+
+  input,
+  select {
+    width: 100%;
+    margin: 3px 0 10px 0;
+    border-radius: 15px;
+    height: 59px;
+  }
 }

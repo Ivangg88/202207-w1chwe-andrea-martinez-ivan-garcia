@@ -26,22 +26,35 @@
       <i class="fa-solid fa-bars"></i>
     </header>
     <div class="search">
+      <h2 class="search__title">Search</h2>
       <form action="submit" class="search__form" autocomplete="off">
-        <h2 class="search__title">Search</h2>
         <label for="Gold Coast">Destination/property name</label>
-        <input
+        <select
           name="Gold Coast"
           id="Gold Coast"
           class="search__box"
           placeholder="Gold Coast"
-        />
-        <h3>Check-in date</h3>
-        <input type="text" class="search__box" placeholder="Check-in date" />
-        <h3>Check-out date</h3>
-        <input type="text" class="search__box" placeholder="Check-out" />
-        <h3>Travellers</h3>
+        >
+          <option>Gold Coast</option>
+        </select>
+        <label for="Check-in date">Check-in date</label>
         <input
           type="text"
+          id="Check-in date"
+          class="search__box"
+          placeholder="Check-in date"
+        />
+        <label for="Check-out date">Check-out date</label>
+        <input
+          type="text"
+          id="Check-out date"
+          class="search__box"
+          placeholder="Check-out"
+        />
+        <label for="Travellers">Travellers</label>
+        <input
+          type="text"
+          id="Travellers"
           class="search__box"
           placeholder="2 adults - 0 children"
         />
