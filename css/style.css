@@ -13,12 +13,17 @@
   font-weight: 700;
   font-size: 34.38px;
   line-height: 55px;
-  margin-left: 20px;
+  margin-left: 44px;
 }
 .main-header i {
   margin-right: 40px;
 }
 
+@media (min-width: 900px) {
+  .main-header h1 {
+    margin-left: 100px;
+  }
+}
 * {
   box-sizing: border-box;
 }
@@ -30,6 +35,7 @@ html {
 body {
   padding: 0;
   margin: 0;
+  width: 100vw;
 }
 
 /*# sourceMappingURL=style.css.map */
