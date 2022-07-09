@@ -1,0 +1,7 @@
+@use "../variables/colors";
+
+.search {
+  background-color: colors.$background-elements-1;
+  border-radius: 20px;
+  width: 420px;
+}

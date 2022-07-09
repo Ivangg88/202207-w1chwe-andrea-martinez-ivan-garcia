@@ -25,34 +25,27 @@
       <h1>Travelulu</h1>
       <i class="fa-solid fa-bars"></i>
     </header>
-    <div>
-      <form action="submit" class="search" autocomplete="off">
+    <div class="search">
+      <form action="submit" class="search__form" autocomplete="off">
         <h2 class="search__title">Search</h2>
-        <div>
-          <h3>Destination/property name</h3>
-          <input
-            name="Gold Coast"
-            class="search__box"
-            placeholder="Gold Coast"
-          />
-        </div>
-        <div>
-          <h3>Check-in date</h3>
-          <input type="text" class="search__box" placeholder="Check-in date" />
-        </div>
-        <div>
-          <h3>Check-out date</h3>
-          <input type="text" class="search__box" placeholder="Check-out" />
-        </div>
-        <div>
-          <h3>Travellers</h3>
-          <input
-            type="text"
-            class="search__box"
-            placeholder="2 adults - 0 children"
-          />
-        </div>
-        <buttom class="button">Search</buttom>
+        <label for="Gold Coast">Destination/property name</label>
+        <input
+          name="Gold Coast"
+          id="Gold Coast"
+          class="search__box"
+          placeholder="Gold Coast"
+        />
+        <h3>Check-in date</h3>
+        <input type="text" class="search__box" placeholder="Check-in date" />
+        <h3>Check-out date</h3>
+        <input type="text" class="search__box" placeholder="Check-out" />
+        <h3>Travellers</h3>
+        <input
+          type="text"
+          class="search__box"
+          placeholder="2 adults - 0 children"
+        />
+        <buttom class="button--thin">Search</buttom>
       </form>
     </div>
   </body>
