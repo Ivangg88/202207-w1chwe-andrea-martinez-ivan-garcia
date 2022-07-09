@@ -1,2 +1,19 @@
 @use "partials/button";
 @use "partials/find-box";
+@use "variables/colors";
+@use "variables/fonts";
+@use "partials/header";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+}
