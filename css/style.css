@@ -1,0 +1,35 @@
+.main-header {
+  background-color: white;
+  color: #5f2eea;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(208, 206, 206);
+  margin: 0;
+}
+.main-header h1 {
+  height: 55px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34.38px;
+  line-height: 55px;
+  margin-left: 20px;
+}
+.main-header i {
+  margin-right: 40px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

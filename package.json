@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-sass": "npx sass sass/style.scss css/style.css --watch",
+    "compile-sass-netlify": "npx sass sass/style.scss css/style.css",
     "prepare": "husky install"
   },
   "repository": {
