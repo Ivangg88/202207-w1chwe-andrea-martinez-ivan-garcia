@@ -1,0 +1,15 @@
+@use "/sass/variables/colors";
+
+.find-box {
+  .find-box__input {
+    display: inherit;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: -1.82%;
+    background: colors.$background-inputs;
+    border: 2px solid #14142b;
+    border-radius: 16px;
+  }
+}
