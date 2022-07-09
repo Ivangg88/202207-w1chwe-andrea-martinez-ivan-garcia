@@ -1,0 +1,31 @@
+@use "../variables/colors";
+
+.main-header {
+  background-color: colors.$main-color;
+  color: colors.$titles-1-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(208, 206, 206);
+  margin: 0;
+
+  h1 {
+    height: 55px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34.38px;
+    line-height: 55px;
+    margin-left: 44px;
+  }
+
+  i {
+    margin-right: 40px;
+  }
+}
+@media (min-width: 900px) {
+  .main-header {
+    h1 {
+      margin-left: 100px;
+    }
+  }
+}
