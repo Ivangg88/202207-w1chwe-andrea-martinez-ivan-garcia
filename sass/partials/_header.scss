@@ -8,6 +8,7 @@
   align-items: center;
   border-bottom: 1px solid rgb(208, 206, 206);
   margin: 0;
+  padding: 0 5%;
 
   h1 {
     height: 55px;
@@ -22,6 +23,7 @@
     margin-right: 40px;
   }
 }
+
 @media (min-width: 900px) {
   .main-header {
     h1 {
