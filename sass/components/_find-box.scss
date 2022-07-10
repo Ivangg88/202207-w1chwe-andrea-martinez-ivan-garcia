@@ -44,8 +44,8 @@
     margin-bottom: 40px;
     border-bottom: 1px solid rgb(208, 206, 206);
 
-    h2 {
-      max-width: 100%;
+    .find-box__title {
+      max-width: none;
     }
     .container-inputs {
       min-width: 100%;
