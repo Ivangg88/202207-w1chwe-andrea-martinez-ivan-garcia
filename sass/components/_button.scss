@@ -10,5 +10,10 @@
 }
 .button--thin {
   width: 200px;
-  height: 40px;
+  height: 46px;
+  width: 100%;
+  color: colors.$main-color;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
 }
