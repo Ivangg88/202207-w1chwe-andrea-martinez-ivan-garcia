@@ -1,18 +1,5 @@
-@use "partials/header";
-@use "partials/search";
-@use "partials/button";
-@use "partials/find-box";
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: "Poppins", sans-serif;
-}
-
-body {
-  padding: 0;
-  margin: 0;
-  width: 100vw;
-}
+@use "components/header";
+@use "components/search";
+@use "components/button";
+@use "components/find-box";
+@use "components/globals";

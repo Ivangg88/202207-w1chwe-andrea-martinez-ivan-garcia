@@ -4,6 +4,7 @@
   border: 1px solid colors.$button-color;
   background-color: colors.$button-color;
   border-radius: 40px;
-  width: 421px;
+  width: 100%;
+  max-width: 320px;
   height: 55px;
 }
