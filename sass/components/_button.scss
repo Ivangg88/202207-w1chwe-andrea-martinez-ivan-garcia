@@ -10,5 +10,18 @@
 }
 .button--thin {
   width: 200px;
-  height: 40px;
+  height: 46px;
+  width: 100%;
+  color: colors.$main-color;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.button--transparent {
+  border: 2px solid #d9dbe9;
+  background-color: white;
+  border-radius: 40px;
+  max-width: 178px;
+  height: 43px;
 }

@@ -1,0 +1,39 @@
+@use "../variables/colors";
+
+.properties-found {
+  margin: 20px;
+
+  h2 {
+    margin-top: 42px;
+    font-size: 24px;
+  }
+
+  img {
+    width: 240px;
+  }
+
+  .punctuation {
+    color: colors.$button-color;
+    margin-top: 10px;
+
+    i {
+      font-size: 20px;
+      margin-right: 4px;
+    }
+  }
+
+  .description {
+    margin: 20px 0;
+    color: #5f2eea;
+  }
+
+  h3,
+  h4 {
+    margin: 14px 0 0 0;
+  }
+
+  p {
+    margin: 4px 0 0 0;
+    font-size: 14px;
+  }
+}
