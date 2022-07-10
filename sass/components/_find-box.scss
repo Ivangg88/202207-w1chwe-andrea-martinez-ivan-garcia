@@ -30,3 +30,38 @@
     background-position-y: center;
   }
 }
+.container-inputs {
+  max-width: 50%;
+}
+@media (min-width: 900px) {
+  .find-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgb(208, 206, 206);
+
+    .container-inputs {
+      min-width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      text-align: center;
+    }
+
+    .find-box__input {
+      box-sizing: border-box;
+      margin-bottom: 20px;
+      border: 2px solid black;
+      border-radius: 15px;
+      width: 25%;
+      max-width: 320px;
+      height: 56px;
+      padding-left: 25px;
+    }
+    .button--desktop {
+      width: 25%;
+    }
+  }
+}
